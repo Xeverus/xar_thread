@@ -1,7 +1,9 @@
 set(PUBLIC_FILES
+        src/xar_thread/spinlock.cpp
         src/xar_thread/dummy.cpp)
 
 set(PRIVATE_FILES
+        include/xar_thread/spinlock.hpp
         include/xar_thread/dummy.hpp)
 
 
