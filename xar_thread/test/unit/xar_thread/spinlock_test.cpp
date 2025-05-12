@@ -8,7 +8,7 @@
 
 namespace xar_thread
 {
-    TEST(SpinLockTest, lifecycle__two_threads__result_ok)
+    TEST(SpinLockTest, lifecycle__many_threads__result_ok)
     {
         const auto expected = 10;
         auto result = 0;
