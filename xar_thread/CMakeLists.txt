@@ -1,10 +1,8 @@
 set(PUBLIC_FILES
-        src/xar_thread/spinlock.cpp
-        src/xar_thread/dummy.cpp)
+        src/xar_thread/spinlock.cpp)
 
 set(PRIVATE_FILES
-        include/xar_thread/spinlock.hpp
-        include/xar_thread/dummy.hpp)
+        include/xar_thread/spinlock.hpp)
 
 
 add_library(xar_thread STATIC)
